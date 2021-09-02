@@ -2,9 +2,7 @@ import Navigation from "../Navigation/Navigation"
 
 const Header = () => {
     return ( 
-        <header>
-            wellcome to my page
-
+        <header className="header">
             <Navigation />
         </header>
      );
