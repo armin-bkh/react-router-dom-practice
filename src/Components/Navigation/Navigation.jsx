@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 const Navigation = (props) => {
     console.log(props);
   return (
-    <header>
       <nav>
         <ul>
           <li>
@@ -15,7 +14,6 @@ const Navigation = (props) => {
           </li>
         </ul>
       </nav>
-    </header>
   );
 };
 
