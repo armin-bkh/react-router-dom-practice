@@ -1,17 +1,17 @@
 import { Route } from "react-router-dom";
 import "./App.scss";
 import Layout from "./Layout/Layout";
-import AboutUsPage from "./Pages/AboutUsPage";
-import HomePage from "./Pages/HomePage";
-import Profile from "./Pages/Profile";
+import routes from "./Routes/Routes";
 
 function App() {
   return (
     <Layout>
       <main>
-        <Route path="/" exact={true} component={HomePage} />
-        <Route path="/about-us" component={AboutUsPage} />
-        <Route path="/profile" component={Profile} />
+        {
+          routes.map(route => (
+            <Route {...route} />
+          ))
+        }
       </main>
     </Layout>
   );
