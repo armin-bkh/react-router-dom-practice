@@ -3,6 +3,7 @@ import "./App.scss";
 import Layout from "./Layout/Layout";
 import AboutUsPage from "./Pages/AboutUsPage";
 import HomePage from "./Pages/HomePage";
+import Profile from "./Pages/Profile";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <main>
         <Route path="/" exact={true} component={HomePage} />
         <Route path="/about-us" component={AboutUsPage} />
+        <Route path="/profile" component={Profile} />
       </main>
     </Layout>
   );

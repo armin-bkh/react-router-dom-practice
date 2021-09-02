@@ -1,9 +1,9 @@
-import { withRouter } from "react-router";
-import { Link, NavLink } from "react-router-dom";
+import { withRouter ,Link, NavLink } from "react-router-dom";
 
 const Links = [
-  {to: "/", title: "Home", exact: true},
-  {to: "/about-us", title: "About us",}
+  {to: "/", title: "Home", exact: true,},
+  {to: "/about-us", title: "About us",},
+  {to: "/profile", title: "profile",}
 ]
 const Navigation = (props) => {
     console.log(props);
