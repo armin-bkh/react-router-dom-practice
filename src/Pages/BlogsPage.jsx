@@ -12,7 +12,7 @@ const BlogsPage = () => {
             <h1>blogs page</h1>
             <ul>
             {
-            links.map(link => <li key={link.to}><Link to={link.to}>{link.title}</Link></li>)
+            links.map(link => <li key={link.to}><Link to={{pathname: link.to, search: "sort=name"}}>{link.title}</Link></li>)
             }
             </ul>
         </section>
