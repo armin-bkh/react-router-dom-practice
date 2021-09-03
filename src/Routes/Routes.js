@@ -12,8 +12,8 @@ const routes = [
     {path: "/about-us", component: AboutUsPage},
     {path: "/profile", component: Profile},
     {path: "/blogs", component: BlogsPage},
-    {component: NotFound},
     {path: "/", component: HomePage, exact: true},
+    {component: NotFound},
 ]
 
 export default routes

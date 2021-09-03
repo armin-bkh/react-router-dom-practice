@@ -10,15 +10,15 @@
         .navBar-nav {
             display: flex;
             align-items: center;
-        
-            .navItem{
 
-                a{
+            .navItem {
+
+                a {
                     padding: 5px 15px;
                     font-weight: bolder;
                 }
 
-                .activeLink{
+                .activeLink {
                     color: rgb(162, 117, 173);
                 }
             }
@@ -26,8 +26,17 @@
     }
 }
 
+.sidebar {
+    display: flex;
 
-.footer{
+    li {
+        a {
+            padding: 5px 15px;
+        }
+    }
+}
+
+.footer {
     display: flex;
     justify-content: center;
     align-items: center;
