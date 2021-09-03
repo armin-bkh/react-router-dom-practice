@@ -5,7 +5,7 @@ const Blog = ({match}) => {
     return ( 
         <section>
             <h1>blog number { id }</h1>
-            <Link to={`/blog/${parseInt(id) + 1}`}>go to next page</Link>
+            <Link to={`/blogs/${parseInt(id) + 1}`}>go to next page</Link>
         </section>
      );
 }

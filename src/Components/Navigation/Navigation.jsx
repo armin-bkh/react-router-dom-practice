@@ -4,11 +4,10 @@ const Links = [
   {to: "/", title: "Home", exact: true,},
   {to: "/about-us", title: "About us",},
   {to: "/profile", title: "profile",},
-  {to: "/blog", title: "blog",},
+  {to: "/blogs", title: "blog",},
   {to: "/post", title: "post",},
 ]
 const Navigation = (props) => {
-    console.log(props);
   return (
       <nav className="navBar">
         <ul className="navBar-nav">
